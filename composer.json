@@ -1,0 +1,20 @@
+{
+    "name": "vladzur/react-php",
+    "description": "react-php example",
+    "type": "project",
+    "require": {
+        "react/react": "^0.4.2",
+        "cboden/ratchet": "^0.3.6"
+    },
+    "authors": [
+        {
+            "name": "vladzur",
+            "email": "vladzur@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MyApp": "src"
+        }
+    }
+}
