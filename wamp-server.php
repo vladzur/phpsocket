@@ -7,7 +7,7 @@ use Ratchet\Wamp\WampServer;
 use Ratchet\WebSocket\WsServer;
 use React\Socket\Server;
 
-require dirname(__DIR__) . '/vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 $loop   = React\EventLoop\Factory::create();
 $wamp = new Wamp;
