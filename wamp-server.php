@@ -12,9 +12,8 @@ require_once __DIR__.'/vendor/autoload.php';
 $loop   = React\EventLoop\Factory::create();
 $wamp = new Wamp;
 
-// Set up our WebSocket server for clients wanting real-time updates
 $webSock = new Server($loop);
-$webSock->listen(8080, '0.0.0.0'); // Binding to 0.0.0.0 means remotes can connect
+$webSock->listen(8080, '0.0.0.0');
 
 $wampServer = new WampServer($wamp);
 $wsServer = new WsServer($wampServer);
