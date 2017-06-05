@@ -12,7 +12,7 @@ $httpServer = new HttpServer($wsServer);
 
 $server = IoServer::factory(
     $httpServer,
-    8080
+    6080
 );
 
 $server->run();

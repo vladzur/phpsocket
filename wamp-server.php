@@ -13,7 +13,7 @@ $loop   = React\EventLoop\Factory::create();
 $wamp = new Wamp;
 
 $webSock = new Server($loop);
-$webSock->listen(8080, '0.0.0.0');
+$webSock->listen(6080, '0.0.0.0');
 
 $wampServer = new WampServer($wamp);
 $wsServer = new WsServer($wampServer);
