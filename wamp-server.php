@@ -20,6 +20,6 @@ $wsServer = new WsServer($wampServer);
 $httpServer = new HttpServer($wsServer);
 $webServer = new IoServer($httpServer, $webSock);
 
-echo "WAMP server is running and listen on port 8080\n";
+echo "WAMP server is running and listen on port 6080\n";
 
 $loop->run();

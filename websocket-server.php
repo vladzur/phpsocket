@@ -15,4 +15,6 @@ $server = IoServer::factory(
     6080
 );
 
+echo "WebSocket server is running and listen on port 6080\n";
+
 $server->run();
