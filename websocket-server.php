@@ -10,10 +10,7 @@ require_once __DIR__.'/vendor/autoload.php';
 $wsServer = new WsServer(new Chat());
 $httpServer = new HttpServer($wsServer);
 
-$server = IoServer::factory(
-    $httpServer,
-    6080
-);
+$server = IoServer::factory($httpServer,6080, '0.0.0.0');
 
 echo "WebSocket server is running and listen on port 6080\n";
 
