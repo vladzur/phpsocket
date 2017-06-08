@@ -6,6 +6,14 @@ This is just an example of the sockets implementation using react-php libraries.
 * `composer install`
 
 ## Run
+
+### Basic example
+This open a socket lstening port 1337
+
+`php basic.php`
+
+Open in web browser http://127.0.0.1:1337
+
 ### Simple socket
 This is a simple socket listening in port 4000
 
@@ -21,7 +29,7 @@ Thisn is a more advanced example using the Ratchet library
 
 `php chat-server.php`
 
-This script open a websocket listening port 8080, now you can connect some web client to it
+This script open a websocket listening port 6080, now you can connect some web client to it
 
 
 
