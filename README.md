@@ -1,5 +1,5 @@
 ## React-PHP examples
-This is just a few examples of the sockets implementation using react-php libraries.
+This is just a few examples of the sockets implementation using react-php and Ratchet libraries.
 
 ## Install
 * `git clone git@github.com:vladzur/phpsocket.git`
